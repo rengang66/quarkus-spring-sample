@@ -1,0 +1,12 @@
+
+
+curl http://localhost:8080/projects/stream
+
+
+______________________________________________________
+curl http://localhost:8080/hello
+
+curl http://localhost:8080/projects/kafka
+
+
+

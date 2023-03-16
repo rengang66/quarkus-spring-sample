@@ -1,0 +1,34 @@
+mvnw compile quarkus:dev
+
+curl http://localhost:8084/rest/projects
+
+curl http://localhost:8084/rest/projects/1
+
+curl -X POST -H  "Content-type: application/json" -d  {\"id\":3,\"name\":\"项目C\",\"description\":\"关于项目C的描述\"}  http://localhost:8084/rest/projects
+
+curl -X POST -H  "Content-type: application/json" -d  {\"id\":4,\"name\":\"projectD\",\"description\":\"projectDdescription\"}  http://localhost:8084/rest/projects
+
+curl -X PUT -H "Content-type: application/json" -d {\"id\":3,\"name\":\"projectupdateC\",\"description\":\"projectupdateCdescription\"} http://localhost:8084/rest/projects
+
+curl -X DELETE   http://localhost:8084/rest/projects/1
+
+http://localhost:8260/
+
+curl http://localhost:8090/projects
+
+curl http://localhost:8080/projects
+
+-------------------------------------------------------------------------------
+curl -X POST -H  "Content-type: application/json" -d  {\"id\":3,\"name\":\"项目C\",\"description\":\"关于项目C的描述\"}  http://localhost:8090/projects
+
+curl -X POST -H  "Content-type: application/json" -d  {\"id\":3,\"name\":\"项目C\",\"description\":\"关于项目C的描述\"}  http://localhost:8080/projects
+
+curl -X DELETE   http://localhost:8090/projects/4
+
+curl -X DELETE   http://localhost:8080/projects/4
+
+
+
+
+
+

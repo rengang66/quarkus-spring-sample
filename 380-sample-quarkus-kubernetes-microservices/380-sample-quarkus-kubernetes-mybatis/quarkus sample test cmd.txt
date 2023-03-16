@@ -1,0 +1,34 @@
+
+mvnw compile quarkus:dev
+
+mvn compile quarkus:dev
+
+curl http://localhost:8080/projects
+
+curl http://localhost:8080/projects/1
+
+curl -X POST  -H "Content-type: application/json" -d {\"id\":6,\"name\":\"ÏîÄ¿F\"} http://localhost:8080/projects
+
+curl -X PUT -H "Content-type: application/json" -d {\"id\":5,\"name\":\"Project5\"} http://localhost:8080/projects/5 -v
+
+curl -X DELETE http://localhost:8080/projects/5  -v
+
+
+curl -X POST  -H "Content-type: application/json" -d {\"id\":6,\"name\":\"projectF\"} http://localhost:8080/projects/5
+
+__________________________________________________________________________
+curl http://localhost:8080/mybatis
+curl http://localhost:8080/mybatis/user/1
+curl http://localhost:8080/mybatis/user/dynamic/2
+
+
+curl http://localhost:8080/mybatis/user/1
+
+curl http://localhost:8080/mybatis/user -X POST -d "id=5" -d "name=user5"
+
+curl -X DELETE http://localhost:8080/mybatis/user/3  -v
+
+
+
+
+

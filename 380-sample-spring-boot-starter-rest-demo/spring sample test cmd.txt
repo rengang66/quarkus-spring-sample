@@ -1,0 +1,11 @@
+﻿
+
+
+curl http://localhost:8080/api/
+
+curl http://localhost:8080/api/projects
+
+curl http://localhost:8080/api/projects/1
+
+
+

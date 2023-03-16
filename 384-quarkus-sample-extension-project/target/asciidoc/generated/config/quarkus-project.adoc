@@ -1,0 +1,46 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference.searchable, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-project_configuration]]link:#quarkus-project_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a| [[quarkus-project_quarkus.project.name]]`link:#quarkus-project_quarkus.project.name[quarkus.project.name]`
+
+[.description]
+--
+Project name
+--|string 
+|`rengang`
+
+
+a| [[quarkus-project_quarkus.project.address]]`link:#quarkus-project_quarkus.project.address[quarkus.project.address]`
+
+[.description]
+--
+Project address
+--|string 
+|`china`
+
+
+a| [[quarkus-project_quarkus.project.manager.managername]]`link:#quarkus-project_quarkus.project.manager.managername[quarkus.project.manager.managerName]`
+
+[.description]
+--
+Project managerName
+--|string 
+|`roger`
+
+
+a| [[quarkus-project_quarkus.project.manager.post]]`link:#quarkus-project_quarkus.project.manager.post[quarkus.project.manager.post]`
+
+[.description]
+--
+Project manger post
+--|string 
+|`Manager`
+
+|===

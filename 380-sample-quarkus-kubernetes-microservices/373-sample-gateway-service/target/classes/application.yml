@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: rest-service
+          uri: http://127.0.0.1:8882
+          predicates:
+            - Path=/rest/projects/**
+          filters:
+            - StripPrefix=1
+        - id: panache-service
+          uri: http://127.0.0.1:8883
+          predicates:
+            - Path=/panache/projects/**
+          filters:
+            - StripPrefix=1
+        - id: mybatis-service
+          uri: http://127.0.0.1:8884
+          predicates:
+            - Path=/mybatis/projects/**
+          filters:
+            - StripPrefix=1
+    loadbalancer:
+      ribbon:
+        enabled: false

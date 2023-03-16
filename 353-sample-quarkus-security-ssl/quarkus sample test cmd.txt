@@ -1,0 +1,17 @@
+mvnw compile quarkus:dev
+
+curl -i -X GET https://localhost:8443/projects --insecure
+
+curl -i -X GET https://localhost:8443/projects/1 --insecure
+
+curl -X POST -H "Content-type: application/json" -d {\"id\":3,\"name\":\"项目C\",\"description\":\"关于项目C的描述\"} https://localhost:8443/projects --insecure
+
+curl -X PUT -H "Content-type: application/json" -d {\"id\":3,\"name\":\"项目C\",\"description\":\"项目C描述修改内容\"} https://localhost:8443/projects --insecure
+
+curl -X DELETE  -H "Content-type: application/json" -d {\"id\":3,\"name\":\"项目C\",\"description\":\"关于项目C的描述\"} https://localhost:8443/projects --insecure
+
+curl https://localhost:8443/projects/1 --insecure
+
+
+
+

@@ -1,0 +1,12 @@
+﻿
+
+curl http://localhost:8080/projects
+
+curl http://localhost:8080/projects/616e8be804248476e8e1440c
+
+curl -X POST  -H "Content-type: application/json" -d {\"id\":\"64\",\"title\":\"Posttest\",\"content\":\"contentofposttest\"}  http://localhost:8080/projects
+
+curl -X PUT -H "Content-type: application/json" -d  {\"id\":\"66\",\"title\":\"Posttest1\",\"content\":\"contentofposttestUpdate\"} http://localhost:8080/projects/64 
+
+curl -X DELETE http://localhost:8080/projects/64
+

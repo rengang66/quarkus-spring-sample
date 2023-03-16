@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="380-sample-spring-boot-starter-rest-demo" />
+        <module name="312-sample-quarkus-rest" />
+        <module name="364-sample-quarkus-spring-data" />
+        <module name="310-sample-spring-rest" />
+        <module name="320-sample-spring-jpa-hibernate" />
+        <module name="335-sample-quarkus-mongodb" />
+        <module name="367-sample-quarkus-springboot-properties" />
+        <module name="325-sample-quarkus-reactive-panache-activerecord" />
+        <module name="321-sample-quarkus-jpa-hibernate" />
+        <module name="316-sample-quarkus-reactive-rest" />
+        <module name="313-sample-quarkus-rest-client" />
+        <module name="324-sample-spring-reactive-data" />
+        <module name="352-sample-spring-security" />
+        <module name="353-sample-quarkus-security-ssl" />
+        <module name="344-sample-spring-reactive-streams" />
+        <module name="347-sample-quarkus-kafka-streams" />
+        <module name="346-sample-spring-kafka-streams" />
+        <module name="322-sample-quarkus-jpa-panache-repository" />
+        <module name="333-sample-quarkus-reactive-redis" />
+        <module name="334-sample-spring-mongodb" />
+        <module name="354-sample-quarkus-security-basic" />
+        <module name="356-sample-quarkus-security-jwt" />
+        <module name="328-sample-spring-orm-mybatis" />
+        <module name="370-sample-quarkus-spring-springboot-api" />
+        <module name="323-sample-quarkus-jpa-panache-activerecord" />
+        <module name="357-sample-quarkus-security-oauth2" />
+        <module name="350-sample-spring-security-shiro" />
+        <module name="342-sample-spring-event" />
+        <module name="341-sample-quarkus-jms" />
+        <module name="345-sample-quarkus-reactive-streams" />
+        <module name="327-sample-quarkus-reactive-sqlclient" />
+        <module name="317-sample-quarkus-servlet" />
+        <module name="340-sample-spring-jms" />
+        <module name="343-sample-quarkus-event" />
+        <module name="314-sample-spring-reactive-rest" />
+        <module name="330-sample-spring-redis" />
+        <module name="331-sample-quarkus-redis" />
+        <module name="337-sample-quarkus-reactive-mongodb" />
+        <module name="360-sample-quarkus-spring-di" />
+        <module name="362-sample-quarkus-spring-web" />
+        <module name="326-sample-quarkus-reactive-hibernate" />
+        <module name="366-sample-quarkus-spring-security" />
+        <module name="358-sample-quarkus-security-oidc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="310-sample-spring-rest" target="1.8" />
+      <module name="312-sample-quarkus-rest" target="8" />
+      <module name="313-sample-quarkus-rest-client" target="8" />
+      <module name="314-sample-spring-reactive-rest" target="1.8" />
+      <module name="316-sample-quarkus-reactive-rest" target="1.8" />
+      <module name="317-sample-quarkus-servlet" target="1.8" />
+      <module name="320-sample-spring-jpa-hibernate" target="1.8" />
+      <module name="321-sample-quarkus-jpa-hibernate" target="1.8" />
+      <module name="322-sample-quarkus-jpa-panache-repository" target="1.8" />
+      <module name="323-sample-quarkus-jpa-panache-activerecord" target="1.8" />
+      <module name="324-sample-spring-reactive-data" target="1.8" />
+      <module name="325-sample-quarkus-reactive-panache-activerecord" target="1.8" />
+      <module name="326-sample-quarkus-reactive-hibernate" target="1.8" />
+      <module name="327-sample-quarkus-reactive-sqlclient" target="8" />
+      <module name="328-sample-spring-orm-mybatis" target="1.8" />
+      <module name="330-sample-spring-redis" target="1.8" />
+      <module name="331-sample-quarkus-redis" target="1.8" />
+      <module name="333-sample-quarkus-reactive-redis" target="1.8" />
+      <module name="334-sample-spring-mongodb" target="1.8" />
+      <module name="335-sample-quarkus-mongodb" target="1.8" />
+      <module name="337-sample-quarkus-reactive-mongodb" target="11" />
+      <module name="340-sample-spring-jms" target="1.8" />
+      <module name="341-sample-quarkus-jms" target="1.8" />
+      <module name="342-sample-spring-event" target="1.8" />
+      <module name="343-sample-quarkus-event" target="1.8" />
+      <module name="344-sample-spring-reactive-streams" target="1.8" />
+      <module name="345-sample-quarkus-reactive-streams" target="1.8" />
+      <module name="346-sample-spring-kafka-streams" target="1.8" />
+      <module name="347-sample-quarkus-kafka-streams" target="1.8" />
+      <module name="350-sample-spring-security-shiro" target="1.8" />
+      <module name="352-sample-spring-security" target="1.8" />
+      <module name="353-sample-quarkus-security-ssl" target="1.8" />
+      <module name="354-sample-quarkus-security-basic" target="1.8" />
+      <module name="356-sample-quarkus-security-jwt" target="1.8" />
+      <module name="357-sample-quarkus-security-oauth2" target="1.8" />
+      <module name="358-sample-quarkus-security-oidc" target="1.8" />
+      <module name="360-sample-quarkus-spring-di" target="1.8" />
+      <module name="362-sample-quarkus-spring-web" target="1.8" />
+      <module name="364-sample-quarkus-spring-data" target="1.8" />
+      <module name="366-sample-quarkus-spring-security" target="1.8" />
+      <module name="367-sample-quarkus-springboot-properties" target="1.8" />
+      <module name="370-sample-quarkus-spring-springboot-api" target="1.8" />
+      <module name="380-sample-spring-boot-starter-rest-demo" target="1.8" />
+      <module name="quarkus-sample" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="310-sample-spring-rest" options="-parameters" />
+      <module name="314-sample-spring-reactive-rest" options="-parameters" />
+      <module name="320-sample-spring-jpa-hibernate" options="-parameters" />
+      <module name="321-sample-quarkus-jpa-hibernate" options="-parameters" />
+      <module name="322-sample-quarkus-jpa-panache-repository" options="-parameters" />
+      <module name="323-sample-quarkus-jpa-panache-activerecord" options="-parameters" />
+      <module name="324-sample-spring-reactive-data" options="-parameters" />
+      <module name="325-sample-quarkus-reactive-panache-activerecord" options="-parameters" />
+      <module name="326-sample-quarkus-reactive-hibernate" options="-parameters" />
+      <module name="328-sample-spring-orm-mybatis" options="-parameters" />
+      <module name="330-sample-spring-redis" options="-parameters" />
+      <module name="334-sample-spring-mongodb" options="-parameters" />
+      <module name="340-sample-spring-jms" options="-parameters" />
+      <module name="342-sample-spring-event" options="-parameters" />
+      <module name="344-sample-spring-reactive-streams" options="-parameters" />
+      <module name="346-sample-spring-kafka-streams" options="-parameters" />
+      <module name="352-sample-spring-security" options="-parameters" />
+      <module name="380-sample-spring-boot-starter-rest-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

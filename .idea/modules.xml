@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/310-sample-spring-rest/310-sample-spring-rest.iml" filepath="$PROJECT_DIR$/310-sample-spring-rest/310-sample-spring-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/312-sample-quarkus-rest/312-sample-quarkus-rest.iml" filepath="$PROJECT_DIR$/312-sample-quarkus-rest/312-sample-quarkus-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/313-sample-quarkus-rest-client/313-sample-quarkus-rest-client.iml" filepath="$PROJECT_DIR$/313-sample-quarkus-rest-client/313-sample-quarkus-rest-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/314-sample-spring-reactive-rest/314-sample-spring-reactive-rest.iml" filepath="$PROJECT_DIR$/314-sample-spring-reactive-rest/314-sample-spring-reactive-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/316-sample-quarkus-reactive-rest/316-sample-quarkus-reactive-rest.iml" filepath="$PROJECT_DIR$/316-sample-quarkus-reactive-rest/316-sample-quarkus-reactive-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/317-sample-quarkus-servlet/317-sample-quarkus-servlet.iml" filepath="$PROJECT_DIR$/317-sample-quarkus-servlet/317-sample-quarkus-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/320-sample-spring-jpa-hibernate/320-sample-spring-jpa-hibernate.iml" filepath="$PROJECT_DIR$/320-sample-spring-jpa-hibernate/320-sample-spring-jpa-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/321-sample-quarkus-jpa-hibernate/321-sample-quarkus-jpa-hibernate.iml" filepath="$PROJECT_DIR$/321-sample-quarkus-jpa-hibernate/321-sample-quarkus-jpa-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/322-sample-quarkus-jpa-panache-repository/322-sample-quarkus-jpa-panache-repository.iml" filepath="$PROJECT_DIR$/322-sample-quarkus-jpa-panache-repository/322-sample-quarkus-jpa-panache-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/323-sample-quarkus-jpa-panache-activerecord/323-sample-quarkus-jpa-panache-activerecord.iml" filepath="$PROJECT_DIR$/323-sample-quarkus-jpa-panache-activerecord/323-sample-quarkus-jpa-panache-activerecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/324-sample-spring-reactive-data/324-sample-spring-reactive-data.iml" filepath="$PROJECT_DIR$/324-sample-spring-reactive-data/324-sample-spring-reactive-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/325-sample-quarkus-reactive-panache-activerecord/325-sample-quarkus-reactive-panache-activerecord.iml" filepath="$PROJECT_DIR$/325-sample-quarkus-reactive-panache-activerecord/325-sample-quarkus-reactive-panache-activerecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/326-sample-quarkus-reactive-hibernate/326-sample-quarkus-reactive-hibernate.iml" filepath="$PROJECT_DIR$/326-sample-quarkus-reactive-hibernate/326-sample-quarkus-reactive-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/327-sample-quarkus-reactive-sqlclient/327-sample-quarkus-reactive-sqlclient.iml" filepath="$PROJECT_DIR$/327-sample-quarkus-reactive-sqlclient/327-sample-quarkus-reactive-sqlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/328-sample-spring-orm-mybatis/328-sample-spring-orm-mybatis.iml" filepath="$PROJECT_DIR$/328-sample-spring-orm-mybatis/328-sample-spring-orm-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/330-sample-spring-redis/330-sample-spring-redis.iml" filepath="$PROJECT_DIR$/330-sample-spring-redis/330-sample-spring-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/331-sample-quarkus-redis/331-sample-quarkus-redis.iml" filepath="$PROJECT_DIR$/331-sample-quarkus-redis/331-sample-quarkus-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/333-sample-quarkus-reactive-redis/333-sample-quarkus-reactive-redis.iml" filepath="$PROJECT_DIR$/333-sample-quarkus-reactive-redis/333-sample-quarkus-reactive-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/334-sample-spring-mongodb/334-sample-spring-mongodb.iml" filepath="$PROJECT_DIR$/334-sample-spring-mongodb/334-sample-spring-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/335-sample-quarkus-mongodb/335-sample-quarkus-mongodb.iml" filepath="$PROJECT_DIR$/335-sample-quarkus-mongodb/335-sample-quarkus-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/337-sample-quarkus-reactive-mongodb/337-sample-quarkus-reactive-mongodb.iml" filepath="$PROJECT_DIR$/337-sample-quarkus-reactive-mongodb/337-sample-quarkus-reactive-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/340-sample-spring-jms/340-sample-spring-jms.iml" filepath="$PROJECT_DIR$/340-sample-spring-jms/340-sample-spring-jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/341-sample-quarkus-jms/341-sample-quarkus-jms.iml" filepath="$PROJECT_DIR$/341-sample-quarkus-jms/341-sample-quarkus-jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/342-sample-spring-event/342-sample-spring-event.iml" filepath="$PROJECT_DIR$/342-sample-spring-event/342-sample-spring-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/343-sample-quarkus-event/343-sample-quarkus-event.iml" filepath="$PROJECT_DIR$/343-sample-quarkus-event/343-sample-quarkus-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/344-sample-spring-reactive-streams/344-sample-spring-reactive-streams.iml" filepath="$PROJECT_DIR$/344-sample-spring-reactive-streams/344-sample-spring-reactive-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/345-sample-quarkus-reactive-streams/345-sample-quarkus-reactive-streams.iml" filepath="$PROJECT_DIR$/345-sample-quarkus-reactive-streams/345-sample-quarkus-reactive-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/346-sample-spring-kafka-streams/346-sample-spring-kafka-streams.iml" filepath="$PROJECT_DIR$/346-sample-spring-kafka-streams/346-sample-spring-kafka-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/347-sample-quarkus-kafka-streams/347-sample-quarkus-kafka-streams.iml" filepath="$PROJECT_DIR$/347-sample-quarkus-kafka-streams/347-sample-quarkus-kafka-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/350-sample-spring-security-shiro/350-sample-spring-security-shiro.iml" filepath="$PROJECT_DIR$/350-sample-spring-security-shiro/350-sample-spring-security-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/352-sample-spring-security/352-sample-spring-security.iml" filepath="$PROJECT_DIR$/352-sample-spring-security/352-sample-spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/353-sample-quarkus-security-ssl/353-sample-quarkus-security-ssl.iml" filepath="$PROJECT_DIR$/353-sample-quarkus-security-ssl/353-sample-quarkus-security-ssl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/354-sample-quarkus-security-basic/354-sample-quarkus-security-basic.iml" filepath="$PROJECT_DIR$/354-sample-quarkus-security-basic/354-sample-quarkus-security-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/356-sample-quarkus-security-jwt/356-sample-quarkus-security-jwt.iml" filepath="$PROJECT_DIR$/356-sample-quarkus-security-jwt/356-sample-quarkus-security-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/357-sample-quarkus-security-oauth2/357-sample-quarkus-security-oauth2.iml" filepath="$PROJECT_DIR$/357-sample-quarkus-security-oauth2/357-sample-quarkus-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/358-sample-quarkus-security-oidc/358-sample-quarkus-security-oidc.iml" filepath="$PROJECT_DIR$/358-sample-quarkus-security-oidc/358-sample-quarkus-security-oidc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/360-sample-quarkus-spring-di/360-sample-quarkus-spring-di.iml" filepath="$PROJECT_DIR$/360-sample-quarkus-spring-di/360-sample-quarkus-spring-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/362-sample-quarkus-spring-web/362-sample-quarkus-spring-web.iml" filepath="$PROJECT_DIR$/362-sample-quarkus-spring-web/362-sample-quarkus-spring-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/364-sample-quarkus-spring-data/364-sample-quarkus-spring-data.iml" filepath="$PROJECT_DIR$/364-sample-quarkus-spring-data/364-sample-quarkus-spring-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/366-sample-quarkus-spring-security/366-sample-quarkus-spring-security.iml" filepath="$PROJECT_DIR$/366-sample-quarkus-spring-security/366-sample-quarkus-spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/367-sample-quarkus-springboot-properties/367-sample-quarkus-springboot-properties.iml" filepath="$PROJECT_DIR$/367-sample-quarkus-springboot-properties/367-sample-quarkus-springboot-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/370-sample-quarkus-spring-springboot-api/370-sample-quarkus-spring-springboot-api.iml" filepath="$PROJECT_DIR$/370-sample-quarkus-spring-springboot-api/370-sample-quarkus-spring-springboot-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/380-sample-spring-boot-starter-rest-demo/380-sample-spring-boot-starter-rest-demo.iml" filepath="$PROJECT_DIR$/380-sample-spring-boot-starter-rest-demo/380-sample-spring-boot-starter-rest-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-sample.iml" filepath="$PROJECT_DIR$/quarkus-sample.iml" />
+    </modules>
+  </component>
+</project>

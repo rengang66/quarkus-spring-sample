@@ -1,0 +1,28 @@
+﻿
+mvnw compile quarkus:dev
+
+http://localhost:8500
+
+curl http://localhost:8882/projects/
+curl http://localhost:8080/rest/projects/
+curl http://localhost:8080/rest/projects/1
+curl -X POST  -H "Content-type: application/json" -d {\"id\":3,\"name\":\"project3\",\"description\":\"description3\"} http://localhost:8080/rest/projects/
+curl -X PUT -H "Content-type: application/json" -d {\"id\":3,\"name\":\"project3\",\"description\":\"description3update\"} http://localhost:8080/rest/projects/ 
+curl -X  DELETE -H "Content-type: application/json" -d {\"id\":3,\"name\":\"project3\",\"description\":\"description3update\"} http://localhost:8080/rest/projects/ 
+
+
+curl http://localhost:8883/projects/
+curl http://localhost:8080/panache/projects/
+curl http://localhost:8080/panache/projects/1
+
+
+curl http://localhost:8884/projects/
+curl http://localhost:8080/mybatis/projects/
+curl http://localhost:8080/mybatis/projects/1
+
+
+
+
+
+
+

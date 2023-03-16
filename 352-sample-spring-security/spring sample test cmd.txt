@@ -1,0 +1,26 @@
+
+
+
+http://localhost:8080/web/annonymous
+http://localhost:8080/web/user
+http://localhost:8080/web/admin
+
+用户:rengang 口令：123456
+
+http://localhost:8080/oauth2/annonymous
+http://localhost:8080/oauth2/user
+http://localhost:8080/oauth2/admin
+
+
+curl -X POST http://localhost:8080/oauth/token ^
+--user oauth2_client_id:oauth2_secret ^
+-H "content-type: application/x-www-form-urlencoded" ^
+-d "username=rengang&password=123456&grant_type=password"
+
+curl -i -X GET -u rengang:123456 http://localhost:8080/oauth2/admin
+
+curl http://localhost:8080/oauth2/admin?token=f1001a88-61bc-41e6-8d1d-e9865ce67130
+
+curl http://localhost:8080/web/admin?token=832893a0-29d0-4c4e-8d53-7cd5dabe529e
+
+

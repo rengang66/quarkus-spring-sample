@@ -1,0 +1,42 @@
+﻿mvnw compile quarkus:dev
+
+mvn compile quarkus:dev
+
+http://localhost:8080/q/dev
+
+mvn clean install
+
+
+
+curl http://localhost:8080/projects/projects/
+
+curl http://localhost:8080/projects/project/
+
+curl http://localhost:8080/projects/projectconfig/
+
+curl http://localhost:8080/projects/projectmanager/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+curl http://localhost:8080/hello/project/
+
+http://localhost:8080/q/dev 
+
+
+
+mvn io.quarkus.platform:quarkus-maven-plugin:2.0.0.Final:create-extension -N ^
+    -DgroupId=com.iiit ^
+    -DextensionId=project-extension ^ 
+    -DwithoutTests 
+

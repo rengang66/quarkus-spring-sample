@@ -1,0 +1,17 @@
+﻿
+curl http://localhost:8080/projects
+
+curl http://localhost:8080/projects/8622d30e-ca25-4268-9e20-882567b75129
+
+curl http://localhost:8080/projects/080b30d8-bc55-498b-97b8-96684eacf6d1
+
+curl -X POST  -H "Content-type: application/json" -d {\"id\":\"2b842ea7-e580-41e4-b48c-1636a292f3ff\",\"title\":\"Projecttest\",\"content\":\"contentofposttest\"}  http://localhost:8080/projects
+
+curl -X PUT -H "Content-type: application/json" -d {\"id\":\"8622d30e-ca25-4268-9e20-882567b75129\",\"title\":\"Project3\",\"content\":\"contentofposttest3\"} http://localhost:8080/projects/8622d30e-ca25-4268-9e20-882567b75129
+
+curl -X DELETE http://localhost:8080/projects/8622d30e-ca25-4268-9e20-882567b75129
+
+
+
+
+

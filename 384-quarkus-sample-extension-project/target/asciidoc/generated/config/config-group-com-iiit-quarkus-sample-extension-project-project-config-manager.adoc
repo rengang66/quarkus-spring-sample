@@ -1,0 +1,28 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[config-group-com-iiit-quarkus-sample-extension-project-project-config-manager_configuration]]link:#config-group-com-iiit-quarkus-sample-extension-project-project-config-manager_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a| [[config-group-com-iiit-quarkus-sample-extension-project-project-config-manager_quarkus.project.manager.managername]]`link:#config-group-com-iiit-quarkus-sample-extension-project-project-config-manager_quarkus.project.manager.managername[quarkus.project.manager.managerName]`
+
+[.description]
+--
+Project managerName
+--|string 
+|`roger`
+
+
+a| [[config-group-com-iiit-quarkus-sample-extension-project-project-config-manager_quarkus.project.manager.post]]`link:#config-group-com-iiit-quarkus-sample-extension-project-project-config-manager_quarkus.project.manager.post[quarkus.project.manager.post]`
+
+[.description]
+--
+Project manger post
+--|string 
+|`Manager`
+
+|===

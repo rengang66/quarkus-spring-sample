@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Administrator
+Build-Jdk: 15.0.2
+Implementation-Title: SpringCloud Demo Projects(Config) -- Config Server
+Implementation-Version: 1.5.2.RELEASE
+Implementation-Vendor-Id: org.springframework.boot
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/372-springclou
+ d-config-server/
+Created-By: Maven Integration for Eclipse
+

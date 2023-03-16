@@ -1,0 +1,15 @@
+
+mvnw compile quarkus:dev
+
+http://localhost:8080/projects
+
+curl  http://localhost:8080/projects
+
+curl -i -X GET -u reng:123456 http://localhost:8080/projects
+
+curl -i -X GET -u reng:password http://localhost:8080/projects/1
+
+
+curl -i -X GET -u admin:admin http://localhost:8080/projects
+
+curl -i -X GET -u reng:password http://localhost:8080/projects

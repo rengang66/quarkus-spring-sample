@@ -1,0 +1,19 @@
+﻿mvnw clean spring-boot:run
+
+curl http://localhost:8080/projects
+
+curl http://localhost:8080/projects/1
+
+curl -X POST  -H "Content-type: application/json" -d {\"id\":6,\"name\":\"项目F\"} http://localhost:8080/projects/add
+
+curl -X PUT -H "Content-type: application/json" -d {\"id\":5,\"name\":\"Project5\"} http://localhost:8080/projects/update
+
+curl -X DELETE -H "Content-type: application/json" -d {\"id\":2,\"name\":\"项目B\"} http://localhost:8080/projects/delete 
+
+
+curl -X POST  -H "Content-type: application/json" -d {\"id\":7,\"name\":\"项目7\"} http://localhost:8080/projects/add
+
+curl -X PUT -H "Content-type: application/json" -d {\"id\":7,\"name\":\"项目7\"} http://localhost:8080/projects/update
+
+curl -X DELETE  http://localhost:8080/projects/delete/4
+

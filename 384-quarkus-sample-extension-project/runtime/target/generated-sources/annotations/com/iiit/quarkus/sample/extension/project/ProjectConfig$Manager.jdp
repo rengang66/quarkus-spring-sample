@@ -1,0 +1,4 @@
+#
+#Mon Apr 25 21:11:46 CST 2022
+com.iiit.quarkus.sample.extension.project.ProjectConfig.Manager.post=Project manger post
+com.iiit.quarkus.sample.extension.project.ProjectConfig.Manager.managerName=Project managerName

@@ -1,0 +1,25 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>ProjectServlet</servlet-name>
+		<servlet-class>com.iiit.quarkus.sample.servlet.resource.ProjectServlet
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ProjectServlet</servlet-name>
+		<url-pattern>/projects</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>ProjectServletFilter</filter-name>
+		<filter-class>com.iiit.quarkus.sample.servlet.resource.ProjectServletFilter
+		</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>ProjectServletFilter</filter-name>
+		<url-pattern>/projects</url-pattern>
+	</filter-mapping>	
+
+</web-app>

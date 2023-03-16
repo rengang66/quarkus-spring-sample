@@ -1,0 +1,5 @@
+﻿
+
+curl -X POST -H "Content-type: application/json" -d {\"id\":3,\"name\":\"项目cccc\",\"description\":\"关于项目cccc的描述\"} http://localhost:8080/projects/postMessage
+
+

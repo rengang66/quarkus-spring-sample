@@ -1,0 +1,9 @@
+com\iiit\quarkus\sample\extension\project\ProjectService.class
+META-INF\quarkus-javadoc.properties
+com\iiit\quarkus\sample\extension\project\Project.class
+com\iiit\quarkus\sample\extension\project\ProjectConfig$Manager.class
+com\iiit\quarkus\sample\extension\project\ProjectRecorder.class
+META-INF\quarkus-config-roots.list
+com\iiit\quarkus\sample\extension\project\ProjectConfig.class
+com\iiit\quarkus\sample\extension\project\ProjectConfigService.class
+com\iiit\quarkus\sample\extension\project\StartupService.class

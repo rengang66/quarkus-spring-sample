@@ -1,0 +1,24 @@
+
+
+curl -X POST -F "username=reng" -F "password=12345" http://localhost:8080/login
+curl -X POST -F "username=user" -F "password=12345" http://localhost:8080/login
+
+curl http://localhost:8080/guest/enter
+curl http://localhost:8080/guest/getMessage
+
+curl -i -X  GET -G --data-urlencode "username=reng" --data-urlencode "password=12345"  http://localhost:8080/admin/getMessage
+
+curl -X  GET -G --data-urlencode "username=user" --data-urlencode "password=12345" http://localhost:8080/user/getMessage
+
+
+curl -H "Authorization token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzM5MjEyNzYsInVzZXJuYW1lIjoic21pdGgifQ.2QKo2sMCDuK_xN1mGiq1UrB9CoyJ9dmmVpq9vIqTV18"  http://localhost:8080/require_auth
+
+
+curl -H "Authorization token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzM5MjEyNzYsInVzZXJuYW1lIjoic21pdGgifQ.2QKo2sMCDuK_xN1mGiq1UrB9CoyJ9dmmVpq9vIqTV18"  http://localhost:8080/require_permission
+
+curl -H "Authorization token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzM5MjE2MDYsInVzZXJuYW1lIjoiZGFubnkifQ.PS_is9wQkmBkXixPY6PJ6Dp1d9yo3f0weaIPe2nzvh0"  http://localhost:8080/require_role
+
+{"code":200,"msg":"Login success","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzM5MjE2MDYsInVzZXJuYW1lIjoiZGFubnkifQ.PS_is9wQkmBkXixPY6PJ6Dp1d9yo3f0weaIPe2nzvh0"}
+
+
+

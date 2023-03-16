@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.iiit.quarkus.sample</groupId>
+  <artifactId>374-sample-quarkus-dubbo-parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>374-sample-quarkus-dubbo-api</module>
+    <module>374-sample-quarkus-dubbo-consumer</module>
+    <module>374-sample-quarkus-dubbo-provider</module>
+  </modules>
+
+  <properties>
+    <surefire-plugin.version>2.22.1</surefire-plugin.version>
+    <maven.compiler.target>11</maven.compiler.target>
+    <quarkus.platform.version>1.13.2.Final</quarkus.platform.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <quarkus.platform.artifact-id>quarkus-universe-bom</quarkus.platform.artifact-id>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <maven.compiler.parameters>true</maven.compiler.parameters>
+    <quarkus-plugin.version>1.13.2.Final</quarkus-plugin.version>
+    <compiler-plugin.version>3.8.1</compiler-plugin.version>
+    <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
+  </properties>
+</project>

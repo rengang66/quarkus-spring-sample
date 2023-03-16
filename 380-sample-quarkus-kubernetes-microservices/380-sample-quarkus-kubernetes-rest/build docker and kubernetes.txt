@@ -1,0 +1,31 @@
+
+---------------------------------------------------------------------------------------------------------------
+mvn clean package
+
+docker build -f src/main/docker/Dockerfile.jvm -t quarkus/380-sample-quarkus-kubernetes-rest-jvm .
+
+docker run -i --rm -p 8882:8882 quarkus/380-sample-quarkus-kubernetes-rest-jvm
+---------------------------------------------------------------------------------------------------------------
+mvn clean package
+
+docker build -f src/main/docker/Dockerfile.jvm -t quarkus/380-sample-quarkus-kubernetes-panache-jvm .
+
+docker run -i --rm -p 8883:8883 quarkus/380-sample-quarkus-kubernetes-panache-jvm
+
+---------------------------------------------------------------------------------------------------------------
+mvn clean package
+
+docker build -f src/main/docker/Dockerfile.jvm -t quarkus/380-sample-quarkus-kubernetes-mybatis-jvm .
+
+docker run -i --rm -p 8884:8884 quarkus/380-sample-quarkus-kubernetes-mybatis-jvm
+
+---------------------------------------------------------------------------------------------------------------
+
+mvnw clean package -Dquarkus.container-image.build=true
+
+
+mvn clean package
+
+docker build -f src/main/docker/Dockerfile.jvm -t quarkus/sample-quarkus-hello .
+
+docker run -i --rm -p 8080:8080 quarkus/sample-quarkus-hello

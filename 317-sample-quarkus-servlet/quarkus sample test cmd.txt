@@ -1,0 +1,37 @@
+﻿mvnw compile quarkus:dev
+
+
+curl http://localhost:8080/projects
+
+curl http://localhost:8080/projects?id=1
+
+curl http://localhost:8080/projects?action=blockTheRequest
+
+curl  -i -X  GET -G --data-urlencode "id=4"  --data-urlencode "name=项目D" --data-urlencode "description=关于项目D的描述"  -i  http://localhost:8080/projects?action=add
+
+curl  -i -X  GET -G --data-urlencode "id=4"  --data-urlencode "name=项目D" --data-urlencode "description=关于项目D的描述修改"  -i  http://localhost:8080/projects?action=update
+
+curl  -i -X  GET -G --data-urlencode "id=4"  --data-urlencode "name=项目D" --data-urlencode "description=关于项目D的描述"  -i  http://localhost:8080/projects?action=delete
+
+
+-----------------------------------------------------------------------------------
+
+curl  -i -X  GET -G --data-urlencode "id=4"  --data-urlencode "name=项目D" --data-urlencode "description=关于项目D的描述"  -i  http://localhost:8080/projects/action?action=add
+
+
+curl  -i -X  GET -G --data-urlencode "id=4"  --data-urlencode "name=项目D" --data-urlencode "description=关于项目D的描述修改"  -i  http://localhost:8080/projects/action?action=update
+
+curl  -i -X  GET -G --data-urlencode "id=4"  --data-urlencode "name=项目D" --data-urlencode "description=关于项目D的描述"  -i  http://localhost:8080/projects/action?action=delete
+
+curl -i -X GET http://localhost:8080/projects/action?action=add\&id=4\&name=项目D\&description=关于项目D的描述
+
+curl -X POST -F "id=4" -F "name=项目D" -F  "description=关于项目D的描述" http://localhost:8080/projects/action?action=add
+
+curl  -i -X GET -F "id=4" -F "name=项目D" -F  "description=关于项目D的描述" http://localhost:8080/projects/action?action=add
+
+
+curl http://localhost:8080/index.html
+
+curl http://localhost:8080/welcome?name=rengang
+
+curl http://localhost:8080/welcome?name=blockTheRequest

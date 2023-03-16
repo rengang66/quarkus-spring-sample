@@ -1,0 +1,13 @@
+﻿
+______________________________________________________________
+
+curl http://localhost:8080/projects
+
+curl http://localhost:8080/projects/2
+
+curl -X POST -H "Content-type: application/json" -d {\"name\":\"项目C\",\"description\":\"关于项目C的描述\"} http://localhost:8080/projects/add
+
+curl -X POST -H "Content-type: application/json" -d {\"id\":3,\"name\":\"项目C\",\"description\":\"关于项目C的描述修改\"} http://localhost:8080/projects/update
+
+curl -X DELETE -H "Content-type: application/json" -d {\"id\":3,\"name\":\"项目C\",\"description\":\"关于项目C的描述修改\"} http://localhost:8080/projects/delete
+

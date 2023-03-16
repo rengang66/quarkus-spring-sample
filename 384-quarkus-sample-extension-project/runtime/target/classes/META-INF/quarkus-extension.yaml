@@ -1,0 +1,7 @@
+---
+metadata:
+  built-with-quarkus-core: "io.quarkus:quarkus-core:1.12.1.Final"
+group-id: "com.iiit"
+artifact-id: "quarkus-sample-extension-project"
+version: "1.0-SNAPSHOT"
+name: "iiit Project Extension - Runtime"

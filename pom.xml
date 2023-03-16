@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">	
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.iiit.quarkus.sample</groupId>
+	<artifactId>quarkus-sample</artifactId>
+	<version>1.0-SNAPSHOT</version>	
+	 <packaging>pom</packaging>
+	
+	<modules>
+        <module>310-sample-spring-rest</module>
+        <module>312-sample-quarkus-rest</module>        
+        <module>313-sample-quarkus-rest-client</module>
+        <module>314-sample-spring-reactive-rest</module> 
+        <module>316-sample-quarkus-reactive-rest</module>	
+        <module>317-sample-quarkus-servlet</module>
+        <module>320-sample-spring-jpa-hibernate</module>
+        <module>321-sample-quarkus-jpa-hibernate</module>	
+        <module>322-sample-quarkus-jpa-panache-repository</module>	
+        <module>323-sample-quarkus-jpa-panache-activerecord</module>
+        <module>324-sample-spring-reactive-data</module>
+        <module>325-sample-quarkus-reactive-panache-activerecord</module>	
+        <module>326-sample-quarkus-reactive-hibernate</module>
+        <module>327-sample-quarkus-reactive-sqlclient</module>
+        <module>328-sample-spring-orm-mybatis</module>
+        <module>330-sample-spring-redis</module>	
+        <module>331-sample-quarkus-redis</module>
+		<module>333-sample-quarkus-reactive-redis</module>		
+        <module>334-sample-spring-mongodb</module>
+        <module>335-sample-quarkus-mongodb</module>	
+        <module>337-sample-quarkus-reactive-mongodb</module>	
+        <module>340-sample-spring-jms</module>
+		<module>341-sample-quarkus-jms</module>		
+        <module>342-sample-spring-event</module>
+        <module>343-sample-quarkus-event</module>
+        <module>344-sample-spring-reactive-streams</module>	
+        <module>345-sample-quarkus-reactive-streams</module>
+		<module>346-sample-spring-kafka-streams</module>
+		<module>347-sample-quarkus-kafka-streams</module>
+		<module>350-sample-spring-security-shiro</module>
+        <module>352-sample-spring-security</module>        
+        <module>353-sample-quarkus-security-ssl</module>	
+        <module>354-sample-quarkus-security-basic</module>
+        <module>356-sample-quarkus-security-jwt</module>
+        <module>357-sample-quarkus-security-oauth2</module>	
+		<module>358-sample-quarkus-security-oidc</module>		
+        <module>360-sample-quarkus-spring-di</module>	
+        <module>362-sample-quarkus-spring-web</module>
+        <module>364-sample-quarkus-spring-data</module>
+        <module>366-sample-quarkus-spring-security</module>
+        <module>367-sample-quarkus-springboot-properties</module>	
+        <module>370-sample-quarkus-spring-springboot-api</module>           
+        <module>380-sample-spring-boot-starter-rest-demo</module>			
+    </modules>
+	
+	
+</project>
